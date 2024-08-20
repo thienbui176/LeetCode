@@ -37,7 +37,7 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 function twoSum(nums: number[], target: number): number[] {
   const smallerNumberThanTheTarget = nums.filter((num) => num <= target);
 
-  const result = [];
+  const result: number[] = [];
   // nums.forEach((value,index)=> {
   //     for(let i =index+1 ; i< nums.length; i++) {
   //         if(value + nums[i] === target) {
